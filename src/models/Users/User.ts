@@ -3,8 +3,8 @@ import { RDFBase, Resource, XSDData } from "../RDFBase";
 export class User extends RDFBase {
     public userId: string;
     public displayName: string;
-    protected accessToken: string;
-    protected refreshToken: string;
+    public accessToken: string;
+    public refreshToken: string;
     protected get ready(): boolean {
         return !!this.accessToken;
     }

@@ -1,12 +1,4 @@
-import { Connection, query } from "stardog";
-
 export class RDFBase {
-    private static connection = new Connection({
-        username: process.env.STARDOG_USERNAME,
-        password: process.env.STARDOG_PASSWORD,
-        endpoint: process.env.STARDOG_ENDPOINT,
-    });
-
     private subject: Subject;
     private properties: Map<string, string[]>;
     private toSemantize: Map<string, RDFBase[]> = new Map<string, RDFBase[]>();
@@ -76,14 +68,22 @@ export class RDFBase {
     public async semantize(description: string): Promise<void> {
         const toSemantize = this.generateSemantizeString(this);
 
-        const updateQuery = `INSERT DATA {\n${toSemantize}}`;
+        const updateQuery =
+            process.env.ONTOLOGY_HEADER + `\n\nINSERT DATA {\n${toSemantize}}`;
         try {
-            const result = await query.execute(
-                RDFBase.connection,
-                process.env.STARDOG_DATABASE,
-                updateQuery
-            );
-            if (result.status !== 200) throw result;
+            const endpointUrl = `http://127.0.0.1:9999/blazegraph/namespace/${process.env.ONTOLOGY_NAMESPACE}/sparql`;
+            // execute query to blazegraph
+            const result = await fetch(endpointUrl, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: new URLSearchParams({ update: updateQuery }),
+            });
+
+            if (!result.ok)
+                throw new Error(`HTTP error! status: ${result.status}`);
+
             console.log(result.status, description);
         } catch (error) {
             console.error(error, description, updateQuery);

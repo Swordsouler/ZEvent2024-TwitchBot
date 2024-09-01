@@ -5,7 +5,7 @@ import { Streamer } from "../Users/Streamer";
 
 export type TwitchEventProps = {
     eventId?: string;
-    triggeredDuring: LiveStream;
+    triggeredDuring?: LiveStream;
     triggeredOn: Streamer;
 };
 
@@ -26,7 +26,7 @@ export abstract class TwitchEvent extends RDFBase {
     }
 
     public semantize(description: string): Promise<void> {
-        if (!this.triggeredDuring) return;
+        //if (!this.triggeredDuring) return;
         return super.semantize(description);
     }
 }

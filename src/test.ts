@@ -1,5 +1,9 @@
-// Usage example
-/*const twitchSocket = new TwitchEventWebSocket("3m13jsxau0tq1fajal5kee04kju98i");
-twitchSocket.connect();
-twitchSocket.subscribe("stream.online", { broadcaster_user_id: "1129453941" });
-*/
+import "dotenv/config";
+import { RDFBase, Resource, XSDData } from "./models/RDFBase";
+
+const test: RDFBase = new RDFBase(new Resource("test"));
+test.addProperty(
+    new Resource("date"),
+    new XSDData(new Date().toISOString(), "dateTime")
+);
+test.semantize("test has ben semantized");

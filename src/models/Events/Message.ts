@@ -10,7 +10,6 @@ export class Message extends ViewerEvent {
     constructor(triggeredOn: Streamer, data: MessageData, bttv: BTTV) {
         super({
             eventId: data.message_id,
-            triggeredDuring: triggeredOn.livestream,
             triggeredBy: new Viewer(
                 data.chatter_user_id,
                 data.chatter_user_name

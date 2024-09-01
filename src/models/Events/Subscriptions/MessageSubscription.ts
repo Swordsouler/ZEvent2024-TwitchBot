@@ -57,12 +57,16 @@ export type MessageData = {
     channel_points_animation_id?: string;
 };
 export class MessageSubscription extends EventSubscription {
-    constructor(broadcasterId: string, callback: (data: MessageData) => void) {
+    constructor(
+        broadcasterId: string,
+        userId: string,
+        callback: (data: MessageData) => void
+    ) {
         super(
             "channel.chat.message",
             {
                 broadcaster_user_id: broadcasterId,
-                user_id: broadcasterId,
+                user_id: userId,
             },
             "1",
             callback
