@@ -71,7 +71,7 @@ export class RDFBase {
         const updateQuery =
             process.env.ONTOLOGY_HEADER + `\n\nINSERT DATA {\n${toSemantize}}`;
         try {
-            const endpointUrl = `http://127.0.0.1:9999/blazegraph/namespace/${process.env.ONTOLOGY_NAMESPACE}/sparql`;
+            const endpointUrl = `${process.env.ONTOLOGY_URL}`;
             // execute query to blazegraph
             const result = await fetch(endpointUrl, {
                 method: "POST",
