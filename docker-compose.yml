@@ -1,0 +1,21 @@
+version: '3.3' 
+services:
+  blazegraph-docker:
+    image: blazegraph-docker
+    container_name: blazegraph-docker
+    ports:
+      - 9999:9999
+    volumes:
+      ## Blazegraph data store
+      - /home/swordsouler/data:/var/lib/blazegraph/data:rw
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9999"]
+      interval: 3s
+      timeout: 5s
+      retries: 3
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bot
