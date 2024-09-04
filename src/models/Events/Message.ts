@@ -27,7 +27,7 @@ export class Message extends ViewerEvent {
             new XSDData(data.message.text, "string")
         );
 
-        for (const b of data.badges) {
+        /*for (const b of data.badges) {
             const badge = new Badge(b.set_id);
             const hasBadge = new RDFBase(
                 this.addProperty(new Resource("hasBadge"), badge.resource)
@@ -39,7 +39,7 @@ export class Message extends ViewerEvent {
 
             this.addToSemantize(badge);
             this.addToSemantize(hasBadge, triggeredOn.resource);
-        }
+        }*/
 
         bttv.findEmotes(data.message.text).forEach((bttvEmote: BTTVEmote) => {
             this.addProperty(new Resource("hasEmote"), bttvEmote.resource);
@@ -60,9 +60,9 @@ export class Message extends ViewerEvent {
     }
 }
 
-export class Badge extends RDFBase {
+/*export class Badge extends RDFBase {
     constructor(set_id: string) {
         super(new Resource("badge_" + set_id));
         this.addProperty("a", new Resource("Badge"));
     }
-}
+}*/

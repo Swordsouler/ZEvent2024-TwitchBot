@@ -205,6 +205,43 @@ export class StreamerManager {
 
     private chatClient: any;
 
+    private getFragments(message: string, tags: any) {
+        const fragments = [];
+        let lastIndex = 0;
+
+        if (tags.emotes) {
+            for (const emote in tags.emotes) {
+                const indexes = tags.emotes[emote];
+                indexes.forEach((index: string) => {
+                    const [start, end] = index.split("-").map(Number);
+                    if (lastIndex < start) {
+                        fragments.push({
+                            type: "text",
+                            text: message.slice(lastIndex, start),
+                        });
+                    }
+                    fragments.push({
+                        type: "emote",
+                        text: message.slice(start, end + 1),
+                        emote: {
+                            id: emote,
+                        },
+                    });
+                    lastIndex = end + 1;
+                });
+            }
+        }
+
+        if (lastIndex < message.length) {
+            fragments.push({
+                type: "text",
+                text: message.slice(lastIndex),
+            });
+        }
+
+        return fragments;
+    }
+
     public async connectChat() {
         const channels = Object.keys(this.streamers);
         this.chatClient = new tmi.Client({
@@ -230,30 +267,7 @@ export class StreamerManager {
                 message_id: tags.id,
                 message: {
                     text: message,
-                    fragments: message.split(" ").map((word) => {
-                        if (tags.emotes) {
-                            for (const emote in tags.emotes) {
-                                const indexes = tags.emotes[emote];
-                                const [start, end] = indexes[0].split("-");
-                                if (
-                                    parseInt(start) <= message.indexOf(word) &&
-                                    message.indexOf(word) <= parseInt(end)
-                                ) {
-                                    return {
-                                        type: "emote",
-                                        text: word,
-                                        emote: {
-                                            id: emote,
-                                        },
-                                    };
-                                }
-                            }
-                        }
-                        return {
-                            type: "text",
-                            text: word,
-                        };
-                    }),
+                    fragments: this.getFragments(message, tags),
                 },
                 message_type: tags["message-type"],
                 badges: tags.badges

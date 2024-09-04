@@ -131,7 +131,7 @@ export class XSDData {
     }
 
     private escapeQuotes(value: string): string {
-        return value.replace(/"/g, '\\"');
+        return value.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
     }
 
     toString(): string {
