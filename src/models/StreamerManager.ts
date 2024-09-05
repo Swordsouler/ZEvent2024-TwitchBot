@@ -1,4 +1,3 @@
-import { ne } from "@faker-js/faker";
 import { Message } from "./Events/Message";
 import { MessageData } from "./Events/Subscriptions/MessageSubscription";
 import { StreamBlades } from "./Users/ChatBot";
@@ -14,6 +13,7 @@ export class StreamerManager {
         AVAMind: "241808969",
 
         BagheraJones: "100744948",
+        Clemovitch: "132501030",
         DamDamLive: "40729999",
         Doigby: "25454398",
         Domingo: "40063341",
@@ -157,27 +157,26 @@ export class StreamerManager {
         Shynouh: "187531943",
         SieurPC: "497641799",
 
-        Slipix: "89204267",
         Slyders_HS: "119356722",
         Sniper_Biscuit: "441936307",
         SolaryHS: "416031592",
-
         Sully_Game: "63071860",
+
         Sura: "94830708",
         Tatiana_TV: "655890726",
         TheGreatReview: "79233769",
-
         TheGuill84: "36318615",
+
         TheHolomovement: "107558788",
         TiTavion: "38822100",
         tpk_live: "167618935",
-
         Trinity: "40383341",
+
         TwincyTV: "440140011",
         Un33D: "50561208",
         Wingo: "41384425",
-
         Xari: "88301612",
+
         xo_trixy: "125323544",
         Zoltan: "125809135",
     };
@@ -210,26 +209,33 @@ export class StreamerManager {
         let lastIndex = 0;
 
         if (tags.emotes) {
+            // Collect all emote indices and sort them
+            const emoteIndices = [];
             for (const emote in tags.emotes) {
-                const indexes = tags.emotes[emote];
-                indexes.forEach((index: string) => {
+                tags.emotes[emote].forEach((index: string) => {
                     const [start, end] = index.split("-").map(Number);
-                    if (lastIndex < start) {
-                        fragments.push({
-                            type: "text",
-                            text: message.slice(lastIndex, start),
-                        });
-                    }
-                    fragments.push({
-                        type: "emote",
-                        text: message.slice(start, end + 1),
-                        emote: {
-                            id: emote,
-                        },
-                    });
-                    lastIndex = end + 1;
+                    emoteIndices.push({ start, end, emote });
                 });
             }
+            emoteIndices.sort((a, b) => a.start - b.start);
+
+            // Process each emote in order
+            emoteIndices.forEach(({ start, end, emote }) => {
+                if (lastIndex < start) {
+                    fragments.push({
+                        type: "text",
+                        text: message.slice(lastIndex, start),
+                    });
+                }
+                fragments.push({
+                    type: "emote",
+                    text: message.slice(start, end + 1),
+                    emote: {
+                        id: emote,
+                    },
+                });
+                lastIndex = end + 1;
+            });
         }
 
         if (lastIndex < message.length) {

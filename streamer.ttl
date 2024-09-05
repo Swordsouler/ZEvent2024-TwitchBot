@@ -1,0 +1,548 @@
+prefix sb: <http://www.streamblades.com/ontology#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+sb:twitch_94435040 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "AlphaCast"^^xsd:string .
+
+sb:twitch_177146919 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "AngleDroit"^^xsd:string .
+
+sb:twitch_135468063 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "AntoineDaniel"^^xsd:string .
+
+sb:twitch_241808969 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "AVAMind"^^xsd:string .
+
+sb:twitch_100744948 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "BagheraJones"^^xsd:string .
+
+sb:twitch_132501030 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Clemovitch"^^xsd:string .
+
+sb:twitch_40729999 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "DamDamLive"^^xsd:string .
+
+sb:twitch_25454398 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Doigby"^^xsd:string .
+
+sb:twitch_40063341 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Domingo"^^xsd:string .
+
+sb:twitch_38350595 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "DrFeelgood"^^xsd:string .
+
+sb:twitch_85800130 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Etoiles"^^xsd:string .
+
+sb:twitch_75373669 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Gius"^^xsd:string .
+
+sb:twitch_149220653 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Gom4rt"^^xsd:string .
+
+sb:twitch_253195796 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "helydia"^^xsd:string .
+
+sb:twitch_127129336 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "HortyUnderscore"^^xsd:string .
+
+sb:twitch_155601320 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "JLTomy"^^xsd:string .
+
+sb:twitch_68078157 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Joueur_du_Grenier"^^xsd:string .
+
+sb:twitch_27115917 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Kamet0"^^xsd:string .
+
+sb:twitch_32183344 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "KennyStream"^^xsd:string .
+
+sb:twitch_89872865 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Laink"^^xsd:string .
+
+sb:twitch_44806759 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Lapi"^^xsd:string .
+
+sb:twitch_121652526 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "LittleBigWhale"^^xsd:string .
+
+sb:twitch_28575692 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "mistermv"^^xsd:string .
+
+sb:twitch_18887776 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "MoMaN"^^xsd:string .
+
+sb:twitch_28585164 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Mynthos"^^xsd:string .
+
+sb:twitch_133034596 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "OPcrotte"^^xsd:string .
+
+sb:twitch_50597026 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Ponce"^^xsd:string .
+
+sb:twitch_469724446 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Pressea"^^xsd:string .
+
+sb:twitch_32053915 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Rivenzi"^^xsd:string .
+
+sb:twitch_38284441 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Sakor_"^^xsd:string .
+
+sb:twitch_505902512 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "samueletienne"^^xsd:string .
+
+sb:twitch_62989856 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Shisheyu"^^xsd:string .
+
+sb:twitch_36086436 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Sundae"^^xsd:string .
+
+sb:twitch_72480716 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Tonton"^^xsd:string .
+
+sb:twitch_68594999 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "Ultia"^^xsd:string .
+
+sb:twitch_41719107 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "ZeratoR"^^xsd:string .
+
+sb:twitch_77870741 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "ZEVENT"^^xsd:string .
+
+sb:twitch_817065149 a sb:Streamer ;
+                   sb:hasLocation sb:Offline ;
+                   sb:hasDisplayName "ZEventPlays"^^xsd:string .
+
+############################################################################################################
+
+sb:twitch_121954515 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "0uahleouff"^^xsd:string .
+
+sb:twitch_158851049 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Anaee"^^xsd:string .
+
+sb:twitch_69592711 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Areliann"^^xsd:string .
+
+sb:twitch_117848541 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "AsPig"^^xsd:string .
+
+sb:twitch_29753247 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "aypierre"^^xsd:string .
+
+sb:twitch_87072436 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "BARDINETTE"^^xsd:string .
+
+sb:twitch_2305215 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "BartGeo"^^xsd:string .
+
+sb:twitch_4102418 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "BenZaie"^^xsd:string .
+
+sb:twitch_96324761 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Berlu"^^xsd:string .
+
+sb:twitch_154054375 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Catboat"^^xsd:string .
+
+sb:twitch_475763739 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Charles"^^xsd:string .
+
+sb:twitch_16937718 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Chipsette"^^xsd:string .
+
+sb:twitch_42855324 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Chreak"^^xsd:string .
+
+sb:twitch_41812776 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "CitronViolet"^^xsd:string .
+
+sb:twitch_176243295 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Coffee"^^xsd:string .
+
+sb:twitch_502281282 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Dhalen"^^xsd:string .
+
+sb:twitch_74397555 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "dofla"^^xsd:string .
+
+sb:twitch_29315858 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Dokhy"^^xsd:string .
+
+sb:twitch_234217124 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Elbe_Poly"^^xsd:string .
+
+sb:twitch_29188740 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "FantaBobShow"^^xsd:string .
+
+sb:twitch_53226469 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "FarodGames"^^xsd:string .
+
+sb:twitch_468884133 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Flonflon"^^xsd:string .
+
+sb:twitch_27920057 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Forsa"^^xsd:string .
+
+sb:twitch_120951864 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Furax22"^^xsd:string .
+
+sb:twitch_117323707 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "FuuRy_Off"^^xsd:string .
+
+sb:twitch_117436348 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "haynetv"^^xsd:string .
+
+sb:twitch_175560856 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Hctuan"^^xsd:string .
+
+sb:twitch_31997899 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "HeavenFox"^^xsd:string .
+
+sb:twitch_61435362 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Hermanel"^^xsd:string .
+
+sb:twitch_137573929 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Hugolisoir"^^xsd:string .
+
+sb:twitch_84240904 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Humility"^^xsd:string .
+
+sb:twitch_766602965 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "IciJaponCorp"^^xsd:string .
+
+sb:twitch_517346449 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "iunanova"^^xsd:string .
+
+sb:twitch_49035758 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "JimmyBoyyy"^^xsd:string .
+
+sb:twitch_58074830 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "JOSPLAY"^^xsd:string .
+
+sb:twitch_87399830 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Julgane"^^xsd:string .
+
+sb:twitch_124403155 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "JulietteArz"^^xsd:string .
+
+sb:twitch_85876549 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "KAOsvmd"^^xsd:string .
+
+sb:twitch_46887220 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Karssi"^^xsd:string .
+
+sb:twitch_71290640 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "KEMIST_C10H15N"^^xsd:string .
+
+sb:twitch_37523739 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "kenbogard"^^xsd:string .
+
+sb:twitch_121542282 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "KyriaTV"^^xsd:string .
+
+sb:twitch_234558563 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Laniyelle"^^xsd:string .
+
+sb:twitch_273221728 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Laorie"^^xsd:string .
+
+sb:twitch_675284287 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "LaSAINTE"^^xsd:string .
+
+sb:twitch_196870264 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "lastbaroudeur"^^xsd:string .
+
+sb:twitch_596371111 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "LePotoMat"^^xsd:string .
+
+sb:twitch_407902778 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "LeVraiDoffy"^^xsd:string .
+
+sb:twitch_144395004 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Linca"^^xsd:string .
+
+sb:twitch_601706343 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Lu_K"^^xsd:string .
+
+sb:twitch_35632770 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "LuuxiA"^^xsd:string .
+
+sb:twitch_103824525 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "LyeGaia"^^xsd:string .
+
+sb:twitch_429600778 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "m4fgaming"^^xsd:string .
+
+sb:twitch_82493955 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Malganyr"^^xsd:string .
+
+sb:twitch_38978803 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Marco"^^xsd:string .
+
+sb:twitch_244319274 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "mehdi_scc"^^xsd:string .
+
+sb:twitch_160824044 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "MissCliick_"^^xsd:string .
+
+sb:twitch_138657790 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Monodie"^^xsd:string .
+
+sb:twitch_57934918 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Morrigh4n"^^xsd:string .
+
+sb:twitch_24538057 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "MrDeriv"^^xsd:string .
+
+sb:twitch_89283616 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "MrQuaRate"^^xsd:string .
+
+sb:twitch_41670870 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "MrTiboute"^^xsd:string .
+
+sb:twitch_152329729 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "NAROY"^^xsd:string .
+
+sb:twitch_464846470 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Neagari"^^xsd:string .
+
+sb:twitch_51958193 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Niniste"^^xsd:string .
+
+sb:twitch_43643204 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "OGN_EMPIRES"^^xsd:string .
+
+sb:twitch_123930395 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Ouatdefok"^^xsd:string .
+
+sb:twitch_38975140 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Peaxy"^^xsd:string .
+
+sb:twitch_127826699 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "PodaSai"^^xsd:string .
+
+sb:twitch_53265819 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Poko"^^xsd:string .
+
+sb:twitch_90661740 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "PyrooTv"^^xsd:string .
+
+sb:twitch_115060112 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Recalbox"^^xsd:string .
+
+sb:twitch_183215477 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Redemption"^^xsd:string .
+
+sb:twitch_151874024 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "rhobalas_lol"^^xsd:string .
+
+sb:twitch_411206830 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "RoroowTV"^^xsd:string .
+
+sb:twitch_43993381 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "SAPEUH"^^xsd:string .
+
+sb:twitch_122863474 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Saruei"^^xsd:string .
+
+sb:twitch_84886230 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Scok"^^xsd:string .
+
+sb:twitch_187531943 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Shynouh"^^xsd:string .
+
+sb:twitch_497641799 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "SieurPC"^^xsd:string .
+
+sb:twitch_119356722 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Slyders_HS"^^xsd:string .
+
+sb:twitch_441936307 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Sniper_Biscuit"^^xsd:string .
+
+sb:twitch_416031592 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "SolaryHS"^^xsd:string .
+
+sb:twitch_63071860 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Sully_Game"^^xsd:string .
+
+sb:twitch_94830708 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Sura"^^xsd:string .
+
+sb:twitch_655890726 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Tatiana_TV"^^xsd:string .
+
+sb:twitch_79233769 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "TheGreatReview"^^xsd:string .
+
+sb:twitch_36318615 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "TheGuill84"^^xsd:string .
+
+sb:twitch_107558788 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "TheHolomovement"^^xsd:string .
+
+sb:twitch_38822100 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "TiTavion"^^xsd:string .
+
+sb:twitch_167618935 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "tpk_live"^^xsd:string .
+
+sb:twitch_40383341 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Trinity"^^xsd:string .
+
+sb:twitch_440140011 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "TwincyTV"^^xsd:string .
+
+sb:twitch_50561208 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Un33D"^^xsd:string .
+
+sb:twitch_41384425 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Wingo"^^xsd:string .
+
+sb:twitch_88301612 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Xari"^^xsd:string .
+
+sb:twitch_125323544 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "xo_trixy"^^xsd:string .
+
+sb:twitch_125809135 a sb:Streamer ;
+                   sb:hasLocation sb:Online ;
+                   sb:hasDisplayName "Zoltan"^^xsd:string .
