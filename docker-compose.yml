@@ -10,13 +10,19 @@ services:
             - /home/swordsouler/data:/var/lib/blazegraph/data:rw
         restart: always
         healthcheck:
-            test: ["CMD", "curl", "-f", "http://localhost:9999", "||", "exit 1"]
+            test:
+                [
+                    "CMD",
+                    "curl",
+                    "-f",
+                    "http://localhost:9999",
+                    "||",
+                    "kill",
+                    "1",
+                ]
             interval: 10s
             timeout: 10s
             retries: 3
-        deploy:
-            restart_policy:
-                condition: on-failure
     bot:
         build:
             context: .
