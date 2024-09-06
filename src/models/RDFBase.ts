@@ -86,7 +86,8 @@ export class RDFBase {
 
             console.log(result.status, description);
         } catch (error) {
-            console.error(error, description, updateQuery);
+            console.log(error.status ?? "Error", description);
+            //console.error(error, description, updateQuery);
         }
     }
 }
