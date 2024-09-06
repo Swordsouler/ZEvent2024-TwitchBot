@@ -81,12 +81,12 @@ export class RDFBase {
                 body: new URLSearchParams({ update: updateQuery }),
             });
 
-            /*if (!result.ok) 
-                throw new Error(`HTTP error! status: ${result.status}`);*/
+            if (!result.ok)
+                throw new Error(`HTTP error! status: ${result.status}`);
 
             console.log(result.status, description);
         } catch (error) {
-            console.log(error.status ?? "Error", description);
+            console.log("Error", description);
             //console.error(error, description, updateQuery);
         }
     }
