@@ -16,43 +16,43 @@ export class StreamerManager {
         Clemovitch: "132501030",
         DamDamLive: "40729999",
         Doigby: "25454398",
-        Domingo: "40063341",
 
+        Domingo: "40063341",
         DrFeelgood: "38350595",
         Etoiles: "85800130",
         Gius: "75373669",
-        Gom4rt: "149220653",
 
+        Gom4rt: "149220653",
         helydia: "253195796",
         HortyUnderscore: "127129336",
         JLTomy: "155601320",
-        Joueur_du_Grenier: "68078157",
 
+        Joueur_du_Grenier: "68078157",
         Kamet0: "27115917",
         KennyStream: "32183344",
         Laink: "89872865",
-        Lapi: "44806759",
 
+        Lapi: "44806759",
         LittleBigWhale: "121652526",
         mistermv: "28575692",
         MoMaN: "18887776",
-        Mynthos: "28585164",
 
+        Mynthos: "28585164",
         OPcrotte: "133034596",
         Ponce: "50597026",
         Pressea: "469724446",
-        Rivenzi: "32053915",
 
+        Rivenzi: "32053915",
         Sakor_: "38284441",
         samueletienne: "505902512",
         Shisheyu: "62989856",
-        Sundae: "36086436",
 
+        Sundae: "36086436",
         Tonton: "72480716",
         Ultia: "68594999",
         ZeratoR: "41719107",
-        ZEVENT: "77870741",
 
+        ZEVENT: "77870741",
         ZEventPlays: "817065149",
     };
 
@@ -70,7 +70,7 @@ export class StreamerManager {
         Berlu: "96324761",
         Catboat: "154054375",
         Charles: "475763739",
-        Chipsette: "16937718",
+        Chipsette_FR: "101049128",
 
         Chreak: "42855324",
         CitronViolet: "41812776",
