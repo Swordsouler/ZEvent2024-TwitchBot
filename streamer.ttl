@@ -199,9 +199,9 @@ sb:twitch_475763739 a sb:Streamer ;
                    sb:hasLocation sb:Online ;
                    sb:hasDisplayName "Charles"^^xsd:string .
 
-sb:twitch_16937718 a sb:Streamer ;
+sb:twitch_101049128 a sb:Streamer ;
                    sb:hasLocation sb:Online ;
-                   sb:hasDisplayName "Chipsette"^^xsd:string .
+                   sb:hasDisplayName "Chipsette_FR"^^xsd:string .
 
 sb:twitch_42855324 a sb:Streamer ;
                    sb:hasLocation sb:Online ;
